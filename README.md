@@ -13,14 +13,23 @@ This project builds a business proposal for a bike sharing program based on New 
 ## Results
 
 <p align="center">
-<img src="/Resources/summar_df.png" width="55%" height="35%">
+<img src="/Resources/helpful_summary_df.png" width="55%" height="35%">
 </p>
+<p align="center"> Table 1. Summary of "Helpful" Votes </p>
 
-1. How many Vine reviews and non-Vine reviews were there?
+<p align="center">
+<img src="/Resources/all_summary_df.png" width="60%" height="30%">
+</p>
+<p align="center"> Table 2. Summary of All Votes </p>
 
-There are 130 Vine reviews and non-Vine reviews
+#### 1. How many Vine reviews and non-Vine reviews were there?
+In total there are 792,113 reviews, of which 2,775 are Vine and 789,338 are non-Vine. 
+
+However, among the "voted" reveiws, there here are 130 Vine reviews and 16,820 non-Vine reviews
 
 #### 2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+There were 1,356 5-star Vine reviews and 446,360 5-star non-Vine reviews
+
 
 #### 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
