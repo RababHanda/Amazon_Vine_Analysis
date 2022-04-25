@@ -7,7 +7,7 @@ This project analyzes the reveiws on furniture products provided by Amazon Vine
 
 **Analytical:** The project analyzes the reviews left by paying and non-paying members on furniture products, to see if the rating depends on the type of customer giving it. 
 
-**Technical:** The project utilizes Google Colaboratory to pull data from Amazon's S3
+**Technical:** The project utilizes Google Colaboratory to pull data from Amazon Web Services' S3
 
 
 ## Results
@@ -34,10 +34,15 @@ However, among the "voted" reveiws, there here are 130 Vine reviews and 16,820 n
 There were 1,356 5-star Vine reviews and 446,360 5-star non-Vine reviews
 
 #### 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-Only 0.17% of the total Vine reviews are rated 5 stars, whereas 56.35% of all non-Vine reviews are rated 5 stars. 
+Only 49% of the total Vine reviews are rated 5 stars, whereas 56.5% of all non-Vine reviews are rated 5 stars. 
 
 ## Summary
 
-1. The majority of reviews for Furniture product are almost nothing or lower results from Vine participants: 99.6% are Non-Vine.
-2. And overall of all 5 Star reviews are also the same as the Furniture, all are from Vine participants: 99.7% of all 5-star reviews are non-Vine.
-3. But we need to highlight that not all of the 5 Star reviews are coming from Vine participants.
+Of the total 792,113 reviews 56.5% are rated at 5 stars (comprising 447,716 reviews). 
+<p align="center">
+<img src="/Resources/5star_summary_df.png" width="60%" height="30%">
+</p>
+
+Of these 447,716 only 1,356 come from paying members and 446,360 come from non-paying members. But when comparing the percentages of 5 stars from each type of reviews (paid vs unpaid) the results are approximately equal (49% vs 56.5%), therefore it can be confidently concluded members review products just like non memebers. A paid review isn't skewed compared to an unpaid one. Refering to tables 1 & 2 in the previous section, the "helpful" reviews also follow the same breakdown pattern as all review, so this further assures that reviews aren't biased as they are spread out the same way. 
+
+However, when comparing the breakdown of reviews coming from different types of members it can be noted that people tend to give 5 star ratings more than any other rating. It is possible that the product really is good and that is reflected in the ratings, however further investigation can be done to see if giving 5-star reviews helps customers in any way.
