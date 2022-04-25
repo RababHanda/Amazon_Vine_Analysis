@@ -12,7 +12,7 @@ This project analyzes the reveiws on furniture products provided by Amazon Vine
 
 ## Results
 
-It is important to compare the breakdown of reviews voted helpful with all reviews to understand the customer perception and bias in the data. 
+It is important to compare the breakdown of reviews voted helpful with the rest of the reviews to understand the customer perception and any biases in the data. 
 
 <p align="center"><span class="emphasized"> Table 1. Summary of "Helpful" Votes </span></p>
 <p align="center">
@@ -27,14 +27,15 @@ It is important to compare the breakdown of reviews voted helpful with all revie
 
 #### 1. How many Vine reviews and non-Vine reviews were there?
 In total there are 792,113 reviews, of which 2,775 are Vine and 789,338 are non-Vine. 
-
-However, among the "voted" reveiws, there here are 130 Vine reviews and 16,820 non-Vine reviews
+However, among the "voted" reveiws, there here are 130 Vine reviews and 16,820 non-Vine reviews. (*similar breakdown*)
 
 #### 2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-There were 1,356 5-star Vine reviews and 446,360 5-star non-Vine reviews
+There were 1,356 5-star Vine reviews and 446,360 5-star non-Vine reviews. 
+For reviews voted "helpful", there are 70 Vine and 7,957 non-Vine 5-star reveiws. (*similar breakdown*)
 
 #### 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-Only 49% of the total Vine reviews are rated 5 stars, whereas 56.5% of all non-Vine reviews are rated 5 stars. 
+49% of the total Vine reviews are rated 5 stars, whereas 56.5% of all non-Vine reviews are rated 5 stars. 
+For reviews voted "helpful", of 54% Vine and 47% of non-Vine reviews are rated 5 stars. (*similar breakdown*)
 
 ## Summary
 
