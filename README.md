@@ -40,7 +40,7 @@ Only 49% of the total Vine reviews are rated 5 stars, whereas 56.5% of all non-V
 
 Of the total 792,113 reviews 56.5% are rated at 5 stars (comprising 447,716 reviews). 
 <p align="center">
-<img src="/Resources/5star_summary_df.png" width="60%" height="30%">
+<img src="/Resources/5star_summary_df.png" width="40%" height="25%">
 </p>
 
 Of these 447,716 only 1,356 come from paying members and 446,360 come from non-paying members. But when comparing the percentages of 5 stars from each type of reviews (paid vs unpaid) the results are approximately equal (49% vs 56.5%), therefore it can be confidently concluded members review products just like non memebers. A paid review isn't skewed compared to an unpaid one. Refering to tables 1 & 2 in the previous section, the "helpful" reviews also follow the same breakdown pattern as all review, so this further assures that reviews aren't biased as they are spread out the same way. 
